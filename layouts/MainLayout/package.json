@@ -1,0 +1,5 @@
+{
+  "name": "MainLayout",
+  "private": true,
+  "main": "./MainLayout.jsx"
+}
