@@ -1,0 +1,48 @@
+#       OS        #
+###################
+.DS_Store
+*.pem
+.idea
+Thumbs.db
+tmp
+temp
+*.log
+
+
+#     Node.js     #
+###################
+node_modules
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+#     Next.js     #
+###################
+/.next/
+/out/
+
+
+#     Vercel      #
+###################
+.vercel
+
+
+#      Tests      #
+###################
+covergae
+
+
+#    Env Vars     #
+###################
+.env*
+# just i keep this files for know #
+!.env
+!.env.example
+
+#      Build      #
+###################
+dist
+build
