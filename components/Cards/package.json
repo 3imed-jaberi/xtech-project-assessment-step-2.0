@@ -1,0 +1,5 @@
+{
+  "name": "Cards",
+  "private": true,
+  "main": "./Cards.jsx"
+}

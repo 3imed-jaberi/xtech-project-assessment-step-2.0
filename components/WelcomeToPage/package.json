@@ -1,0 +1,5 @@
+{
+  "name": "WelcomeToPage",
+  "private": true,
+  "main": "./WelcomeToPage.jsx"
+}

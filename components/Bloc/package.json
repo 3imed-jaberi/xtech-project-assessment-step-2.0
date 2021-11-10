@@ -1,0 +1,5 @@
+{
+  "name": "Bloc",
+  "private": true,
+  "main": "./Bloc.jsx"
+}
