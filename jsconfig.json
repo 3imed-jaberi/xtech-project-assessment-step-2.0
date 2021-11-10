@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": ["public/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@i18n/*": ["i18n/*"],
+      "@services/*": ["services/*"],
+      "@contexts/*": ["contexts/*"],
+    },
+  }
+}
