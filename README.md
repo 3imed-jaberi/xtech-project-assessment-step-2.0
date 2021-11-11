@@ -4,18 +4,20 @@ This is the Step 2.0 of xTECH Project Assessment.
 
 I pick the AIRBNB clone project which supposed to build with Contentful and React.
 
-<!--
+[![Netlify Status](https://api.netlify.com/api/v1/badges/247cf64d-6048-440c-a210-602eb9cc192c/deploy-status)](https://app.netlify.com/sites/xtech-project-assessment-step2/deploys)
+
 ### Demo
 
 <div align='center'>
   <img
   algn='center'
     src='demo.gif'
-    alt=''
+    alt='xTECH Project Assessment ~ Step 2.0 Demo'
     width='85%'
   />
 </div>
--->
+
+You can access to the deployed version from [here](https://xtech-project-assessment-step2.netlify.app/).
 
 ### Technologies
 
