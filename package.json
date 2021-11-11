@@ -1,0 +1,85 @@
+{
+  "name": "xtech-project-assessment-step-2.0",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This is the Step 2.0 of xTECH Project Assessment. It's an AIRBNB clone with Contentful and React (Next.js).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/xtech-project-assessment-step-2.0.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "lint": "next lint",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "pree2e": "npm run build",
+    "e2e": "start-server-and-test dev http://localhost:3000 cypress",
+    "pree2e:headless": "npm run build",
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless"
+  },
+  "keywords": [
+    "xtech",
+    "technical-assessment",
+    "step-2.0",
+    "react",
+    "next",
+    "contentful"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@mui/styled-engine-sc": "^5.0.4",
+    "@mui/system": "^5.0.6",
+    "contentful": "^9.1.4",
+    "nanoid": "^3.1.30",
+    "next": "12.0.3",
+    "next-transpile-modules": "^9.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-is": "^17.0.2",
+    "styled-components": "^5.3.3",
+    "use-immer": "^0.6.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-knobs": "^6.3.1",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@testing-library/cypress": "^8.0.1",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.3.1",
+    "babel-plugin-styled-components": "^1.13.3",
+    "cypress": "8.7.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.3",
+    "eslint-plugin-testing-library": "4.11.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.3.1",
+    "react-test-renderer": "^17.0.2",
+    "start-server-and-test": "1.14.0"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/xtech-project-assessment-step-2.0/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/xtech-project-assessment-step-2.0#readme"
+}
