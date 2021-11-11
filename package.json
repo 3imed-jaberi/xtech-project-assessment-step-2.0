@@ -1,6 +1,6 @@
 {
   "name": "xtech-project-assessment-step-2.0",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "This is the Step 2.0 of xTECH Project Assessment. It's an AIRBNB clone with Contentful and React (Next.js).",
   "repository": {
