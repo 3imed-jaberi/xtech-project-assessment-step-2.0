@@ -96,8 +96,8 @@ export function Footer() {
               {FOOTER_INC}
             </Typography>
           </Grid>
-          <Grid item xs={4} />
-          <Grid item xs={4}>
+          <Grid item xs={2} />
+          <Grid item xs={6}>
             <Typography variant='body2' color='text.secondary' align='right'>
               {FOOTER_TERMS} <SocialMediaIcons />
             </Typography>
